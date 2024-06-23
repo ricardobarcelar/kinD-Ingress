@@ -63,7 +63,7 @@ kubectl get pods -n ingress-nginx
 
 [deployment.yaml](deployment.yaml)
 
-##### 5.1. No manifesto será necessário permitir a atribuição dinamica da imagem. Para isso é possível usar as variáveis do gitlab:
+##### 5.1. No manifesto será necessário permitir a atribuição dinâmica da imagem. Para isso é possível usar as variáveis do gitlab:
 
 ```
 image: "{{CI_REGISTRY_IMAGE}}:{{CI_COMMIT_REF_NAME}}"
